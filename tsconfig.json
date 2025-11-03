@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["react", "react-native"],
+    "skipLibCheck": true
+  },
+  "include": [
+    "App.tsx",
+    "src"
+  ]
+}
